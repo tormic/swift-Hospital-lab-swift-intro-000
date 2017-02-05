@@ -66,7 +66,7 @@ In your implementation, you should switch on the `subject` argument and return t
 
 If the case is .math - "Take out your math books please."  
 If the case is .science - "Time to learn the best subject of all! Science!!"  
-If the case is .english - "To read or not to read. Everyone take out your english books.
+If the case is .english - "To read or not to read. Everyone take out your english books."
 
 ---
 
@@ -122,3 +122,5 @@ ALSO!, there are two test files which are making sure you implement everything c
 <a href='https://learn.co/lessons/AllTheThings' data-visibility='hidden'>View this lesson on Learn.co</a>
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/swift-Hospital-lab'>Protocol Oriented Programming Lab</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-Hospital-lab'>School Lab</a> on Learn.co and start learning to code for free.</p>
