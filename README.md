@@ -112,15 +112,8 @@ protocol Employee: Payable, TimeOff { }
 
 So anyone that adopts this `Employee` protocol must also conform to the `Payable` and `TimeOff` protocols as well! So we can now go back to our `SchoolEmployees.swift` file and take out where each struct is adopting the `Payable` and `TimeOff` protocol and replace it with the `Employee` protocol (which now accounts for both of those).
 
-
-
 You can test out your code in the `ViewController.swift` file, writing code in the `viewDidLoad()` function.
 
 ALSO!, there are two test files which are making sure you implement everything correctly. You can look at these tests in the `ProtocolTests.swift` file and the `SchoolEmployeeTests.swift` file.
-
-
-<a href='https://learn.co/lessons/AllTheThings' data-visibility='hidden'>View this lesson on Learn.co</a>
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/swift-Hospital-lab'>Protocol Oriented Programming Lab</a> on Learn.co and start learning to code for free.</p>
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/swift-Hospital-lab'>School Lab</a> on Learn.co and start learning to code for free.</p>
